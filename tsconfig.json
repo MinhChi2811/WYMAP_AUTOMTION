@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+ // "include": ["src/**/*.ts", "playwright.config.ts"],
+  //"include": ["src"]
+   "include": [
+    "src/**/*.ts",
+    "report",
+     "custom-types.d.ts"
+   ]
+}
+ 
+ 

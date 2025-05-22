@@ -1,0 +1,7 @@
+{
+  "login": {
+    "email": "//*[@id='email']",
+    "password": "//*[@id='password']",
+    "loginButton": "//span[normalize-space(text())='Login']"
+  }
+}
