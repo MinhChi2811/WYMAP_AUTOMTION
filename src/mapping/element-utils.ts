@@ -1,4 +1,4 @@
-import elementMapRaw from '../mapping/mapping.json';
+import elementMapRaw from './mapping.json';
 
 const elementMap = elementMapRaw as Record<string, any>;
 

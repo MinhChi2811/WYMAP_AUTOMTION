@@ -1,21 +1,29 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "baseUrl": "src",
+    "paths": {
+      "@mapping/*": ["mapping/*"],
+      "@support/*": ["support/*"],
+      "@page/*": ["page/*"],
+      //  "@support/*": ["features/support/*"],
+      //  "@data/*": ["test-data/*"],
+      // "@pages/*": ["pages/*"]
+     "@step/*": ["step-definition/*"]
+     
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "module": "commonjs",
     "strict": true,
-    "esModuleInterop": true,
+    "target": "ESNext",
     "moduleResolution": "node",
-    "types": ["node"],
     "outDir": "dist",
-    "resolveJsonModule": true
+    "types": ["node"],
+    "allowJs": true
   },
- // "include": ["src/**/*.ts", "playwright.config.ts"],
-  //"include": ["src"]
-   "include": [
+  "include": [
     "src/**/*.ts",
     "report",
-     "custom-types.d.ts"
-   ]
+    "custom-types.d.ts"
+  ]
 }
- 
- 

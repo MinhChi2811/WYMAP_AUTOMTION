@@ -3,5 +3,23 @@
     "email": "//*[@id='email']",
     "password": "//*[@id='password']",
     "loginButton": "//span[normalize-space(text())='Login']"
+  },
+
+  "createlocaljob":{
+    "JobPageDropdown": "(//a[normalize-space()='Jobs'])[1]",
+    "jobPage": "(//a[normalize-space()='Jobs'])[2]",
+    "createJobBigBtn": "//span[normalize-space()='+ CREATE JOB']",
+    "cityDropdown": "//div[@id='cityId']",
+    "jobtypeDropdown": "//div[normalize-space()='Select job type']",
+    "requesterName": "//input[@id='requesterName']",
+    "customerName":"//div[normalize-space()='Select customer']",
+    "cargoType":"//div[@class='form-row']//div[@role='button'][normalize-space()='Select Cargo Type']",
+    "driverName":"//div[@class='form-row']//div[@role='button'][normalize-space()='Select Driver']",
+    "CTO":"//div[normalize-space()='Select CTO']",
+    "pickup":"//div[normalize-space()='Select pickup location']",
+    "dropoff":"//div[normalize-space()='Select dropoff location']",
+    "pre-loadCharge1":"input[name='isPreloadChargeApplied']",
+    "jobdes1":"//textarea[@id='description']",
+    "createJobSmallBtn":"//span[normalize-space()='Create Job']"
   }
 }

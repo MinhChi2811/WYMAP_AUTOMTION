@@ -1,0 +1,26 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://admin.staging.wymap.com.au",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NjYsImVtYWlsIjoicHRtY2hpQHRtYS5jb20udm4iLCJuYW1lIjoiQ2hpUCIsInRpbWV6b25lIjoiQXNpYS9TYWlnb24iLCJwZXJtaXNzaW9ucyI6WyJ1c2VyXzciLCJqb2JfNyIsImN1c3RvbWVyXzciLCJkcml2ZXJfNyIsInRydWNrXzciLCJ0cmFpbGVyXzciLCJ0b2xsTG9jYXRpb25fNyIsImhvbGlkYXlfNyIsInJvbGVQZXJtaXNzaW9uXzciLCJtYXBDb2NrcGl0XzciLCJpbnZvaWNlXzciLCJvbmxpbmVSZXF1ZXN0XzciLCJkYXNoYm9hcmRfNyIsImpvYlJldmlld183IiwicmFpc2VEcmFmdEludm9pY2VfNyIsIm5vdGlmaWNhdGlvbl83IiwicmVwb3J0XzciLCJvcmdhbmlzYXRpb25fNyIsImN0b183IiwiY29ubmVjdGVkQ3VzdG9tZXJfNyIsImNhcmdvV2lzZV83IiwiZm91bmRVSW50ZWdyYXRpb25fNyIsImdlb2ZlbmNlc183IiwidW5tYXRjaGVkVmVoaWNsZXNfNyIsInRoaXJkUGFydHlBcGlDcmVkZW50aWFsXzciXSwiaWF0IjoxNzQ4MzIwNjM0LCJleHAiOjE3NDg0MDcwMzR9.uoeBZOG7GHj0_MDF7mZKi-bDzWAkXJhRKeLkm55muKE"
+        },
+        {
+          "name": "data",
+          "value": "ChiP"
+        },
+        {
+          "name": "permissions",
+          "value": "user_7,job_7,customer_7,driver_7,truck_7,trailer_7,tollLocation_7,holiday_7,rolePermission_7,mapCockpit_7,invoice_7,onlineRequest_7,dashboard_7,jobReview_7,raiseDraftInvoice_7,notification_7,report_7,organisation_7,cto_7,connectedCustomer_7,cargoWise_7,foundUIntegration_7,geofences_7,unmatchedVehicles_7,thirdPartyApiCredential_7"
+        },
+        {
+          "name": "id",
+          "value": "66"
+        }
+      ]
+    }
+  ]
+}

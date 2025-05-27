@@ -3,7 +3,7 @@
     "@cucumber/cucumber": "^11.3.0",
     "@playwright/test": "^1.52.0",
     "@types/cucumber": "^7.0.3",
-    "@types/node": "^22.15.18",
+    "@types/node": "^22.15.21",
     "cucumber": "^6.0.7",
     "cucumber-html-reporter": "^7.2.0",
     "multiple-cucumber-html-reporter": "^3.9.2",
@@ -15,6 +15,11 @@
     "test": "cucumber-js",
     "build": "tsc",
     "login": "cucumber-js src/features/**/*.feature --require-module ts-node/register --require src/features/support/hook.ts --require src/step-definition/**/*.ts --format json:report/report.json --tags @login",
+    "createLocalJob": "cucumber-js src/features/**/*.feature --require-module ts-node/register --require src/features/support/hook.ts --require src/step-definition/**/*.ts --format json:report/report.json --tags @createLocalJob",
     "report": "ts-node report/generate-report.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "moment": "^2.30.1"
   }
 }
